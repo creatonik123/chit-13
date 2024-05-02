@@ -1,0 +1,65 @@
+
+body {
+    background-color: #73b3ab; /* Softer red background */
+    color: #ffffff; /* White text for contrast */
+    font-family: 'Arial', sans-serif; /* Common sans-serif font */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em; /* Slightly smaller font size */
+    margin-top: 2rem; /* Smaller top margin */
+    text-transform: uppercase; /* Consistent uppercase */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align form elements */
+    margin-top: 5rem; /* Smaller top margin */
+}
+
+input[type="text"] {
+    width: 80%; /* Take a larger width */
+    max-width: 400px; /* Cap at 400px for larger screens */
+    padding: 10px;
+    border: 2px solid #ffffff; /* Simple white border */
+    border-radius: 5px; /* Subtle border-radius */
+    margin-bottom: 1rem; /* Space between form elements */
+    background-color: transparent; /* Transparent background */
+    color: #ffffff; /* White text for contrast */
+}
+
+input[type="text"]::placeholder {
+    color: #cccccc; /* Subtle placeholder color */
+}
+
+input[type="text"]:focus {
+    border-color: #f4f4f4; /* Slightly lighter border on focus */
+}
+
+input[type="submit"] {
+    background-color: #ffffff; /* White background */
+    color: #4aaf9d; /* Red text for contrast */
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 5px; /* Subtle border-radius */
+    padding: 10px 20px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #f4f4f4; /* Lighter on hover */
+}
+
+a {
+    text-decoration: none; /* No underline */
+    color: #ffffff; /* White text for contrast */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+a:hover {
+    color: #f4f4f4; /* Slightly lighter on hover */
+}
